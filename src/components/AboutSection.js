@@ -17,7 +17,7 @@ const AboutSection = () => {
                     <Col xl={6} md={6} data-aos="fade-right" data-aos-delay="50">
                         <div className="about_wrapper">
                             <div className="mb-0 about-image1">
-                                <Image src={AboutImage} alt="" className="img-fluid"></Image>
+                                <Image src={AboutImage} alt="" className="img-fluid demo"></Image>
                             </div> 
                             <div className="mb-0 about-image2">
                                 <Image src={AboutImage2} alt="" className="img-fluid"></Image>
