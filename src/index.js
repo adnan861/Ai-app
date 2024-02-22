@@ -29,7 +29,6 @@ const router = createBrowserRouter([
       // {path:"login", element:<Login/>},
       {path:"register", element:<Register/>},
       {path:"login", element:<Login/>},
-      {path:"Ai-app", element:<Login/>},
       {path:"about", element:<About/>},
       {path:"blog", element:<Blog/>},
       {path:"blog-details", element:<BlogDetails/>},
