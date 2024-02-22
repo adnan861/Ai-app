@@ -396,6 +396,24 @@
       justify-content: center;
    }
 
+   .error-wrapper .circle{
+      height: auto;
+      width: 50px;
+      display: inline-block;
+   }
+
+   .errorBg {
+    top: 0;
+   }
+
+   .error-wrapper .title{
+    font-size: 28px;
+   }
+
+   .error-wrapper p{
+    font-size: 14px;
+   }
+
    .hero-btn .lets_talk {
      margin-right: 10px;
    }

@@ -11,6 +11,7 @@ const ErrorPage = () => {
        <Container>
         <Row>
             <Col md={12} className='text-center'>
+                <div className="errorBg">error</div>
                 <h2 className='title'>
                     Opps! you’r on the wrong place.
                 </h2>
@@ -19,7 +20,7 @@ const ErrorPage = () => {
                 </p>
                 <Link className="learn-btn lets_talk" to={'/'}>Back to home  <div className='circle'><IoIosArrowForward /></div></Link>
                 {/* <Image src={ErrorImg} className='img-fluid'></Image> */}
-              <Image className='errorImg' src={"https://jano-nextjs.netlify.app/images/assets/ils_06.svg"}></Image>
+              <Image className='errorImg img-fluid d-none' src={"https://jano-nextjs.netlify.app/images/assets/ils_06.svg"}></Image>
             </Col>
         </Row>
        </Container>
